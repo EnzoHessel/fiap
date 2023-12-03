@@ -1,0 +1,121 @@
+.b-content {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.b-header{
+    margin-top: 118px;
+    > h1 {
+        text-align: center;
+        color: rgba(0, 0, 0, 0.80);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+
+.b-form-input {
+    margin-top: 28px;
+    display: flex;
+
+    > input {
+        width: 312px;
+        height: 48px;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.40);
+        background: rgba(255, 255, 255, 0.08);
+        outline: none;
+    } 
+}
+
+
+.b-esqueceu {
+    margin-top: 10px;
+    margin-bottom: 22px;
+
+    > p{
+        text-align: center;
+        text-decoration: none;
+        color: #2F89FC;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+}
+
+.b-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 22px;
+   
+    > button {
+        width: 312px;
+        height: 48px;
+    }
+}
+
+
+.b-criar {
+    margin-left: 16px;
+    margin-top: 15px;
+    > p {
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+        > a {
+            margin-left: 16px;
+            color: #2F89FC;
+            text-decoration: none;
+        }
+    }
+}
+
+.b-opcoes {
+    display: inline-block;
+    > p {
+        display: inline-block;
+
+    }
+}
+
+.b-linha {
+    display: inline-block;
+    width: 139px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.50);
+}
+
+.botao {  
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.img {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 57px;
+    flex-wrap: nowrap;
+}
+
+botao-google {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    background-color: #fff !important;
+    flex-wrap: nowrap;
+}
+
+.img-google {
+    margin-right: 57px;
+}
